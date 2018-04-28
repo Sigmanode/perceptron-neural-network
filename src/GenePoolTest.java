@@ -22,7 +22,7 @@ public class GenePoolTest {
 		frame.add(graph);
 		frame.setVisible(true);
 
-		for (int i = 0; i < 150; i++) {
+		for (int i = 0; i < 0; i++) {
 			//System.out.println("Generation " + i + ": ");
 			genePool.quickUpdate(10000, false);
 			xCoords.add((double) i);
